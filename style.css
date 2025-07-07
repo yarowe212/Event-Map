@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    margin: auto;
+}
+
+.map-image {
+    width: 100%;
+    display: block;
+}
+
+.pin {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.card-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-container img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
